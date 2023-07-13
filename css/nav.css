@@ -1,0 +1,155 @@
+@media (max-width:1600px) and (min-width: 100px){
+    .menu ul li a{
+        font-size: 1rem;
+    }
+   
+}
+ @media (max-width:1400px) and (min-width: 100px){
+   .menu ul{
+        align-items: end;
+        text-align: center;
+    }
+   
+}
+@media (max-width:1250px) and (min-width: 100px){
+    .logo{
+        width: 9em; 
+        margin-left: 2vw;  
+    }
+    .menu ul{
+        padding-bottom: 1vh; 
+    }
+    .menu ul li{
+        width: 40%;   
+    }
+    .menu-fixed ul{
+        align-items: center;
+    }
+    .menu-fixed ul li{
+        width: 40%;
+    }
+    .menu-fixed ul li a{
+        text-align: center;
+    }
+    .menu ul li a{   
+        width: 100%;
+        color:white;
+        font-size: 1rem;
+    }
+    .menu ul li a:hover{ 
+        transition: all 0.4s cubic-bezier(0.7, 0.03, 0.4, 1);
+    }
+}   
+@media only screen and (min-width: 50px) and (max-width:1100px){
+    .home-title{
+        bottom: -6.5rem;
+        right: 4rem;
+        line-height: 7rem;
+    }
+    .logo{
+        width: 9em; 
+        margin-left: 1vw;  
+    }
+    .menu{
+        width: 100%;
+        position: fixed;
+        top:4rem;
+        min-width: 35%;
+        right: -100%;
+        transition: 0.2s cubic-bezier(0.7, 0.03, 0.4, 1);
+    }
+    .menu-fixed nav{
+        transition: 0.2s cubic-bezier(0.7, 0.03, 0.4, 1);
+        background-color:var(--main-color-brown);
+        top: 4.5rem;
+        width: 100%;
+    }
+   .menu-fixed .cabecera{
+        width: auto;
+   }
+    .menu ul{
+        flex-direction: column;
+       
+    }
+    .menu ul li{
+        justify-content: center;
+    }
+    header label{
+        display: block;
+    }
+    .hamburguer{
+        transition: 0.6s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.7rem;
+        position: absolute;
+        right: 3rem;
+        top: 1.8rem;
+    }
+    .cross{
+        transition: 0.8s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.7rem;
+        position: absolute;
+        right: 2.7rem;
+        top: 1.8rem;
+    }
+    .footer{
+        padding-top: 3rem;
+    }
+    #btn-menu:checked ~* .hamburguer{
+        transform: translatey(-8rem);
+        transition: all 0.5s;
+    }
+    #btn-menu:checked ~* .cross{
+        transform: translateX(-0.5rem);
+        transition: all 0.5s;
+    }
+    #btn-menu:checked ~* .menu{
+        right: 0;
+        transition: all 0.4s cubic-bezier(0,.6,.8,.7);
+    }
+    #btn-menu:checked ~* .menu li{
+        padding: 0 2.5rem;
+        text-align: left;
+        align-content: center;
+        transition: all 0.4s cubic-bezier(0,.6,.8,.7);
+    }
+}
+@media only screen and (min-width: 50px) and (max-width:850px){
+    .menu{
+        top:75px;
+    }
+}
+@media only screen and (min-width: 50px) and (max-width:550px){
+    .hamburguer{
+        transition: 0.6s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.6rem;
+        position: absolute;
+    }
+    .cross{
+        transition: 0.8s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.6rem;
+        position: absolute;
+        }
+}
+@media only screen and (min-width: 50px) and (max-width:500px){
+    .hamburguer{
+        transition: 0.6s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.5rem;
+        position: absolute;
+        right:1.2rem;
+    }
+    .cross{
+        transition: 0.8s cubic-bezier(0.7, 0.03, 0.4, 1);
+        display: block;
+        width: 1.5rem;
+        position: absolute;
+        right:1.2rem;
+    }
+    #btn-menu:checked ~* .menu li{
+        padding: 0 0.5rem;
+    }
+}
