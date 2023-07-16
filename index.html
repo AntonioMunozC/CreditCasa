@@ -23,13 +23,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+  
     <header class="header">
-        <input type="checkbox" id="btn-menu">
-        <label for="btn-menu"><img src="./img/svg/hamburguer.svg" class="hamburguer show"></a><img src="./img/svg/cross.svg" class="cross show"></label>
+        <div class="bars__menu">
+            <span class="line1__bars-menu"></span>
+            <span class="line2__bars-menu"></span>
+            <span class="line3__bars-menu"></span>
+        </div>
+        <!--<input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="./img/svg/hamburguer.svg" class="hamburguer show"></a><img src="./img/svg/cross.svg" class="cross show"></label>-->
         <div class="cabecera logo-nav-container">
            <a href="#"><img src="./img/svg/logo.svg" class="logo"></a>
             <nav class="menu">
-                <ul>
+                <ul class="menu-ul">
+                    <p>◆</p>
                     <a class="home" href="#">INICIO</a>
                     <p>◆</p>
                     <a class="about" href="#">NOSOTROS</a>
@@ -40,7 +47,7 @@
                     <p>◆</p>
                 </ul>
                 <ul class="langs">
-                    <li class="active" language="spanish"><a a href="#" class="lenguages">ES</a></li>
+                    <li class="active" language="spanish"><a href="#" class="lenguages">ES</a></li>
                     <li language="english"><a href="#" class="lenguages">EN</a></li>
                     <li language="french"><a href="#" class="lenguages">FR</a></li>
                 </ul>
@@ -203,6 +210,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- MENU -->
     <script src="./js/menufix.js"></script>
+    <script src="./js/inicio.js"></script>
     <script src="./js/scripshamburguer.js"></script>
 </body>
 </html>
