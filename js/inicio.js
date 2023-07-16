@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
     var $gallery = $('.gallery a').simpleLightbox();
 
     $gallery.on('show.simplelightbox', function(){
@@ -45,4 +45,13 @@ $(function(){
 
 $(window).load(function() {
     $(".loader").fadeOut(3000);
+});*/
+const hamburger = document.querySelector(".bars__menu");
+const menu = document.querySelector(".menu");
+const menuli = document.querySelector(".menu li");
+
+hamburger.addEventListener("click", () =>{
+    hamburger.classList.toggle("active");
+    menu.classList.toggle("active");
+   
 });
