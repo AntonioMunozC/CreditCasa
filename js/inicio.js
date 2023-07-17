@@ -49,6 +49,9 @@ $(window).load(function() {
 const hamburger = document.querySelector(".bars__menu");
 const menu = document.querySelector(".menu");
 const menuli = document.querySelector(".menu li");
+var line1__bars = document.querySelector(".line1__bars-menu");
+var line2__bars = document.querySelector(".line2__bars-menu");
+var line3__bars = document.querySelector(".line3__bars-menu");
 
 hamburger.addEventListener("click", () =>{
     hamburger.classList.toggle("active");
@@ -56,14 +59,20 @@ hamburger.addEventListener("click", () =>{
    
 });
 
-document.querySelectorAll(".menu-ul").forEach(n => n.
-    addEventListener("click", () => {
+document.querySelectorAll(".ul-a").forEach(n => n.
+    addEventListener("click", () =>{
         hamburger.classList.remove("active");
         menu.classList.remove("active");
-}))
+        line1__bars.classList.remove("activeline1__bars-menu");
+        line2__bars.classList.remove("activeline2__bars-menu");
+        line3__bars.classList.remove("activeline3__bars-menu");
+}));
 
 document.querySelectorAll(".langs").forEach(n => n.
-    addEventListener("click", () => {
+    addEventListener("click", () =>{
         hamburger.classList.remove("active");
         menu.classList.remove("active");
-}))
+        line1__bars.classList.remove("activeline1__bars-menu");
+        line2__bars.classList.remove("activeline2__bars-menu");
+        line3__bars.classList.remove("activeline3__bars-menu");
+}));
