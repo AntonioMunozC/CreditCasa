@@ -1,9 +1,9 @@
-LottieInteractivity.create({
+/*LottieInteractivity.create({
   player: document.getElementById('bullet'),
   mode:"scroll",
   actions: [
     {
-      visibility: [0.1, 0.25],
+      visibility: [0, 1],
       type: "loop",
       frames: [0, 80]
     },
@@ -19,7 +19,7 @@ LottieInteractivity.create({
   mode:"scroll",
   actions: [
     {
-      visibility: [0.1, 0.25],
+      visibility: [0, 1],
       type: "loop",
       frames: [0, 80]
     },
@@ -35,10 +35,10 @@ LottieInteractivity.create({
   mode:"scroll",
   actions: [
     {
-      visibility: [0.1, 0.25],
+      visibility: [0, 1],
       type: "loop",
       frames: [0, 80]
-    },
+    }/*,
     {
       visibility: [0.25, 1],
       type: "stop",
@@ -51,10 +51,10 @@ LottieInteractivity.create({
   mode:"scroll",
   actions: [
     {
-      visibility: [0.1, 0.25],
+      visibility: [0, 1],
       type: "loop",
       frames: [0, 80]
-    },
+    }/*,
     {
       visibility: [0.25, 1],
       type: "stop",
@@ -67,17 +67,49 @@ LottieInteractivity.create({
   mode:"scroll",
   actions: [
     {
-      visibility: [0.1, 0.25],
+      visibility: [0, 1],
       type: "loop",
       frames: [0, 80]
-    },
+    }/*,
     {
       visibility: [0.3, 1],
       type: "stop",
       frames: [40]
   }
   ]
-});
+});*/
+var animation = lottie.loadAnimation({
+  container: document.getElementById('bullet'),
+  renderer: 'svg',
+  loop: true,
+  path: './json/diamond.json'
+})
+var animation = lottie.loadAnimation({
+  container: document.getElementById('bullet2'),
+  renderer: 'svg',
+  loop: true,
+  path: './json/diamond.json'
+})
+var animation = lottie.loadAnimation({
+  container: document.getElementById('bullet3'),
+  renderer: 'svg',
+  loop: true,
+  path: './json/diamond.json'
+})
+var animation = lottie.loadAnimation({
+  container: document.getElementById('bullet4'),
+  renderer: 'svg',
+  loop: true,
+  path: './json/diamond.json'
+})
+var animation = lottie.loadAnimation({
+  container: document.getElementById('bullet5'),
+  renderer: 'svg',
+  loop: true,
+  path: './json/diamond.json'
+})
+
+/*Cards*/
 var animation = lottie.loadAnimation({
     container: document.getElementById('icon1'),
     renderer: 'svg',
@@ -96,8 +128,8 @@ var animation = lottie.loadAnimation({
     loop: true,
     path: './json/circle.json'
   })
-bullet.addEventListener("enterFrame", function (animation) {
+/*bullet.addEventListener("enterFrame", function (animation) {
 if (animation.currentTime > (bullet.totalFrames -79)) {
  
 }
-});
+});*/
