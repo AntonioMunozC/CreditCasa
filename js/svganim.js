@@ -79,6 +79,12 @@ LottieInteractivity.create({
   ]
 });*/
 var animation = lottie.loadAnimation({
+  container: document.getElementById('coin'),
+  renderer: 'svg',
+  loop: true,
+  path: './json/coin.json'
+})
+var animation = lottie.loadAnimation({
   container: document.getElementById('bullet'),
   renderer: 'svg',
   loop: true,
