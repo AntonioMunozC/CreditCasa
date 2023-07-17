@@ -55,3 +55,15 @@ hamburger.addEventListener("click", () =>{
     menu.classList.toggle("active");
    
 });
+
+document.querySelectorAll(".menu-ul").forEach(n => n.
+    addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        menu.classList.remove("active");
+}))
+
+document.querySelectorAll(".langs").forEach(n => n.
+    addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        menu.classList.remove("active");
+}))
