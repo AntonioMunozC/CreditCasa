@@ -456,6 +456,7 @@ body{
 /*OPORTUNIDADES*/
 .chance a{
     transition: all 0.3s cubic-bezier(.3,.3,.28,1);
+    width: 49%;
 }
 .chance a:hover{
     scale: 1.05;
