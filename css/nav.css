@@ -332,6 +332,9 @@
       .wrapper .carousel {
         grid-auto-columns: 100%;
       }
+    .chance a{
+        width: 100%;
+    }
 }
 @media only screen and (min-width: 50px) and (max-width:550px){
     p{
