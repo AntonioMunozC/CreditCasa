@@ -1,0 +1,640 @@
+@media (max-width:1600px) and (min-width: 100px){
+    /*Fix Scroll*/
+    h1[id]{
+        scroll-margin-top: 6rem;
+    }
+    /*HOME SCREEN*/
+    .title{
+        font-size: 5.5em;
+    }
+    #bullet, #bullet2, #bullet3, #bullet4, #bullet5{
+        width: 10rem;
+    }
+    /*ACERCA DE*/
+    .about{
+        height: auto;
+    }
+    .about-container{
+        width: 25rem;
+        height: 30rem;
+    }
+    .about-icon{
+        margin: 0 7rem 0rem 7rem; 
+    }
+    /*OFRECEMOS*/
+    .row{
+        justify-content:space-around;
+    }
+    .column{
+        width: 33rem;
+        height: 33rem;
+    }
+    .effect .effect-img{
+        width: 33rem;
+        height: 33rem;
+    }
+    .effect .effect-img img{
+        height: 33rem;
+    }
+    /*BENEFICIOS*/
+    .flip-card-front img{
+        width: 23rem;
+        height: 23rem;
+    }
+    .flip-card-front picture{
+        width: 23rem;
+        height: 23rem;
+    }
+    /*CLUB*/
+    .flip-card{
+        width: 23rem ;
+        height: 23rem ;
+    }
+    /*TRUST SLIDER*/
+    .carousel .card span{
+        width: 40%;
+    }
+    .card .img img{
+        width: 15rem;
+        height: 17.5rem;
+    }
+    .wrapper i:first-child{
+        left: -5rem;
+    }
+    .wrapper i:last-child{
+        right: -5rem;
+    }
+    /*FORM*/
+    .form-container{
+        width: 60%;
+    }
+}
+ @media (max-width:1400px) and (min-width: 100px){
+    h1{
+        font-size: 2em;
+    }
+    /*MENU*/
+    .menu ul{
+        align-items: center;
+        font-size: 0.75em;
+    }
+    /*HOME SCREEN*/
+    .home-screen{
+        margin-top: 2.5rem;
+    }
+    .title{
+        font-size: 5em;
+    }
+     /*ACERCA DE*/
+    .about-container{
+        width: 30rem;
+       margin-bottom: 2.5rem;
+    }
+    .about-icon{
+        margin: 0 8.5rem 0rem 8.5rem; 
+    }
+    /*BULLETS*/
+    .bullets{
+        margin-bottom: 2rem;
+    }
+    /*TRUST SLIDER*/
+    .carousel .card span{
+        width: 50%;
+    }
+    .wrapper i:first-child{
+        left: -10rem;
+    }
+    .wrapper i:last-child{
+        right: -10rem;
+    }
+    /*CLUB*/
+    .flip-card{
+        width: 20rem ;
+        height: 20rem ;
+    }
+    /*FORM*/
+    .form-container{
+        width: 65%;
+    }
+    /*BENEFITS*/
+    .flip-card-front img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .flip-card-front picture{
+        width: 20rem;
+        height: 20rem;
+    }
+}
+@media (max-width:1250px) and (min-width: 100px){
+    p{
+        font-size: 1.1em;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    /*Fix Scroll*/
+    h1[id]{
+        scroll-margin-top: 5rem;
+    }
+    /*MENU*/
+    .logo{
+        width: 9rem;  
+    }
+    .langs{
+        font-size: 0.7em;
+    }
+    .menu-ul{
+        font-size: 0.7em;
+    }
+    .menu ul li a{   
+        width: 100%;
+        color:white;
+    }
+    .menu ul li a:hover{ 
+        transition: all 0.4s cubic-bezier(0.7, 0.03, 0.4, 1);
+    }
+    /*OFRECEMOS*/
+    .column{
+        width: 25rem;
+        height: 25rem;
+    }
+    .effect .effect-img{
+        width: 25rem;
+        height: 25rem;
+    }
+    .effect .effect-img img{
+        height: 25rem;
+    }
+    /*TRUST SLIDER*/
+    .carousel .card span{
+        font-size: 1.1em;
+    }
+    .wrapper i{
+        width: 6rem;
+        height: 6rem;
+    }
+    /*CLUB*/
+    .flip-card{
+        width: 18rem ;
+        height: 18rem ;
+    }
+    /*FORM*/
+       .form-container{
+        width: 75%;
+    }
+    .flip-card-front img{
+        width: 18rem;
+        height: 18rem;
+    }
+    .flip-card-front picture{
+        width: 18rem;
+        height: 18rem;
+    }
+    input[type=text]{
+        width: 45%;
+    }
+}   
+@media only screen and (min-width: 50px) and (max-width:1100px){
+    h2{
+        font-size: 1.8em;
+    }
+    /*Fix Scroll*/
+    h1[id]{
+        scroll-margin-top: 4rem;
+    }
+    /*MENU*/
+    .logo{
+        width: 8em;   
+    }
+    .cabecera{
+        width: auto;
+        padding: 1rem;
+    }
+    .menu{
+        flex-direction: column;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top:-15%;
+        min-width: 35%;
+        transition: 0.2s cubic-bezier(0.7, 0.03, 0.4, 1);
+        background-color: var(--main-color-gold);
+        padding-bottom: 1rem;
+    }
+    .menu-ul{
+        justify-content: center;
+    }
+    .menu ul li{
+        justify-content: center;
+    }
+    .langs{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .menu.active{
+        padding-top: 1.5rem;
+        top: 4.06rem;
+        transition: all 0.6s cubic-bezier(.3,.3,.28,1);
+    }
+    .menu li.active{
+        text-align: left;
+        align-content: center;
+        transition: all 0.6s cubic-bezier(.3,.3,.28,1);
+    }
+    .menu-fixed nav{
+        transition: 0.2s cubic-bezier(0.7, 0.03, 0.4, 1);
+        width: 100%;
+    }
+    .bars__menu{
+        display: block;
+    }
+     /*ACERCA DE*/
+    .about-container{
+        width: 26rem;
+    }
+    .about-icon{
+        margin: 0 7.5rem 0rem 7.5rem; 
+    }
+    /*OFRECEMOS*/
+    .row{
+        margin-bottom: 5rem;
+    }
+    .column{
+        width: 20rem;
+        height: 20rem;
+        margin-top: 3rem;
+    }
+    .effect .effect-img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .effect .effect-img img{
+        height: 20rem;
+    }
+    /*BENEFICIOS*/
+    .benefits{
+        flex-direction: column;
+    }
+    .benefits:nth-child(2n){
+        flex-direction: column-reverse;
+    }
+    .benefits-sections{
+        width: 100%;
+    }
+    .benefits-sections p{
+        margin-top: 2rem;
+    }
+    /*TRUST SLIDER*/
+    .wrapper i{
+        width: 6rem;
+        height: 6rem;
+    }
+    .wrapper i:first-child{
+        left: -8rem;
+    }
+    .wrapper i:last-child{
+        right: -8rem;
+    }
+    /*CLUB*/
+    .flip-card{
+        width: 25rem ;
+        height: 25rem ;
+    }
+    /*CALCULADORA*/
+  
+    .slider-autoinvoice--result p{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .slider-autoinvoice--result-label{
+        text-align: center;
+    }
+    #slider-result{
+        width: 100%;
+    }
+   
+    /*TEAM*/
+    .container-team{
+        gap: 2rem;
+    }
+    .container-team .team-card{
+        width: 20rem;
+        height: 20rem;
+    }
+    .container-team .team-card .team-img{
+        width: 14.5rem;
+        height: 14.5rem;
+    }
+    .container-team .team-card:hover{
+        height: 20rem;
+   }
+    .container-team .team-card .team-content{
+        top: 17rem;
+    }
+    .container-team .team-card:hover .team-content{
+        top: 11.5rem;
+    }
+    /*FORM*/
+    .form-container{
+        width: 80%;
+    }
+    label{
+        font-size: 1em;
+    }
+    .flip-card-front img{
+        width: 25rem;
+        height: 25rem;
+    }
+    .flip-card-front picture{
+        width: 25rem;
+        height: 25rem;
+    }
+    /*FOOTER*/
+    .footer{
+        padding-top: 3rem;
+    }
+}
+@media only screen and (min-width: 50px) and (max-width:850px){
+    h3{
+        font-size: 1.3em;
+    }
+    p{
+        font-size: 1em;
+    }
+    /*MENU*/
+    .menu{
+        top:-100%;
+    }
+    .menu-ul{
+        flex-direction: column;
+    }
+    /*HOME SCREEN*/
+    .home-screen{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+    }
+    .title{
+        width: 90%;
+    }
+    .img-home{
+        width: 70%;
+    }
+    /*ACERCA DE*/
+     .about-container{
+        width: 75%;
+        height: 27.5rem;
+        margin-bottom: 5rem;
+    }
+    .about-container h2{
+        font-size: 2em;
+    }
+    .about-icon{
+        padding: 0 8rem 0 8rem;
+        margin: 0; 
+    }
+    /*BULLETS*/
+    .bullets-container{
+        margin-bottom: 7.5rem
+    }
+    .bullets{
+        flex-direction: column;
+    }
+    .bullets h1{
+        text-align: center;
+    }
+    /*OFRECEMOS*/
+    .row{
+        margin-bottom: 7.5rem;
+    }
+    .column{
+        width: 27.5rem;
+        height: 27.5rem;
+        margin-top: 3rem;
+    }
+    .effect .effect-img{
+        width: 27.5rem;
+        height: 27.5rem;
+    }
+    .effect .effect-img img{
+        height: 27.5rem;
+    }
+    /*BENEFICIOS*/
+    .benefits-sections a{
+        width: 100%;
+    }
+     /*TRUST SLIDER*/
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 1) - .5625rem);
+    }
+    .wrapper i{
+        width: 4rem;
+        height: 4rem;
+    }
+    .carousel .card{
+        flex-direction: column
+    }
+    .wrapper i:first-child{
+        left: -5rem;
+    }
+    .wrapper i:last-child{
+        right: -5rem;
+    }
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+      }
+    .carousel .card span{
+        font-size: 1em;
+        margin-top: 2rem;
+        width: 90%;
+    }
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+    }
+    /*TEAM*/
+    #team-join{
+        margin: 2rem 0 4rem 0;
+    }
+    /*OPORTUNIDADES*/
+    .chance a{
+        width: 100%;
+    }
+    /*CALCULADORA*/
+    .visma-page--container-title{
+        flex-direction: column;
+    }
+    .visma-page--container-subtitle{
+        margin: 2rem 0;
+    }
+    /*FORM*/
+    .form-container{
+        width: 100%;
+    }
+    .placehold{
+        display: block;
+    }
+    input[type=text]{
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+    /*FOOTER*/
+    .footer{
+        margin-top: 0;
+    }
+    .footer-section{
+        width: 40%;
+        margin: 0.5rem 0;
+        align-content: center;
+    }
+}
+@media only screen and (min-width: 50px) and (max-width:550px){
+    p{
+        font-size: 1em;
+    }
+    h2{
+        font-size: 1.3em;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+    /*Scroll Fix*/
+    h1[id]{
+        scroll-margin-top: 3rem;
+    }
+    /*MENU*/
+    .logo{
+        width: 6em;
+    }
+    .menu.active{
+        padding-top: 0;
+    }
+    .bars__menu{
+        top: 1.5rem;
+    }
+    /*HOME SCREEN*/
+    .title{
+        font-size: 4em;
+    }
+    .img-home{
+        width: 100%;
+    }
+    /*ACERCA DE*/
+    .about-container{
+        width: 100%;
+        height: 31rem;
+    }
+    .about-icon{
+        padding: 0 9rem 0 9rem;
+    }
+    /*OFRECEMOS*/
+    .column{
+        width: 22rem;
+        height: 22rem;
+    }
+    .effect .effect-img{
+        width: 22rem;
+        height: 22rem;
+    }
+    .effect .effect-img img{
+        height: 22rem;
+    }
+    .row h2{
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+    /*BENEFICIOS*/
+    .benefits-sections a{
+        width: 100%;
+    }
+    /*TRUST SLIDER*/
+    .card .img img{
+        width: 13rem;
+        height: 15.5rem;
+    }
+    .carousel .card{
+        margin: 2rem 0 2rem 0;
+    }
+    .wrapper i:first-child{
+        left: -3rem;
+    }
+    .wrapper i:last-child{
+        right: -3rem;
+    }
+    .wrapper i{
+        width: 3rem;
+        height: 3rem;
+    }
+    /*CLUB*/
+    .flip-card{
+        width: 22rem ;
+        height: 22rem ;
+    }
+    /**/
+    #slider-result{
+        margin-bottom: 0.5rem;
+    }
+    #meses{
+        margin-top: -0.5rem;
+    }
+    .slider-autoinvoice-module[data-color="light-blue"] .noUi-horizontal .noUi-handle {
+        height: 26px;
+        width: 26px;
+        }
+    .visma-page--container-subtitle h3{
+        font-size: 1.1em;
+        padding: 0 2rem;
+    }
+    .slider-autoinvoice--result span{
+      padding-top: 0;
+    }
+    .autoinvoice-box{
+        padding: 0;
+    }
+    .slider-autoinvoice--slider-scale span{
+        font-size: 0.8em;
+    }
+    /*FORM*/
+    label{
+        font-size: 0.9em;
+    }
+    .flip-card-front img{
+        width: 22rem;
+        height: 22rem;
+    }
+    .flip-card-front picture{
+        width: 22rem;
+        height: 22rem;
+    }
+    /*FOOTER*/
+    .footer-section{
+        width: 100%;
+        align-content: center;
+        text-align: center;
+    }
+    .footer p , .footer a{
+        font-size: 0.7em;
+        line-height: 2.25em;
+    }
+}
+
+@media only screen and (min-width: 50px) and (max-width:500px){
+    /*MENU*/
+    .menu.active{
+        padding-top: 2%;
+        top: 7%;
+    }
+    /*HOME SCREEN*/
+    .title{
+        font-size: 3.5em
+    }
+    /*ACERCA DE*/
+    .about-container{
+        height: 25rem;
+    }
+    .about-icon{
+        padding: 0 6.5rem 0 6.5rem;
+    }
+}
